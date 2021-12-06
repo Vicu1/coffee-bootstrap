@@ -7,6 +7,7 @@ header {
    top: 0;
    left: 0;
    right: 0;
+   z-index: 2;
 }
 
 
@@ -44,4 +45,125 @@ header {
 
 .carousel-item img {
    height: 100vh;
+}
+
+.svg {
+   fill: #fff;
+}
+
+#header__about {
+   height: 380px;
+   background: url("../images/header-about.jpg") no-repeat center;
+   background-size: cover;
+}
+
+header#header__about {
+   position: relative;
+}
+
+.breadcrumb {
+   font-size: 55px;
+   margin-top: 60px;
+
+}
+
+.breadcrumb-item a {
+   text-decoration: none;
+   color: #fff;
+}
+
+main {
+   background: url("../images/bg.jpg") no-repeat center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.about-info {
+   margin-top: 70px;
+}
+
+.about-info p {
+   font-size: 20px;
+   line-height: 27px;
+   max-width: 580px;
+}
+
+.title-page {
+   font-size: 48px;
+   line-height: 64px;
+   margin-bottom: 45px;
+   font-weight: 700;
+   margin-left: 100px;
+}
+
+.advantages {
+   padding-bottom: 40px;
+}
+
+.advantages .title-page {
+   margin-left: 0;
+}
+
+.advantages-item p {
+   font-size: 16px;
+   line-height: 21px;
+   text-align: center;
+   max-width: 260px;
+}
+
+.advantages-item h4 {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 32px;
+}
+
+.team .title-page {
+   margin-left: 0;
+}
+
+.team h5 {
+   font-size: 24px;
+   line-height: 32px;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+
+.team p {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 32px;
+   color: #5d5d5d;
+   margin-bottom: 30px;
+}
+
+.team {
+   padding-bottom: 60px;
+}
+
+.card {
+   background-color: #e8e8e8;
+}
+
+.copyrights {
+   background-color: #919191;
+   font-size: 24px;
+   line-height: 32px;
+   font-weight: 700;
+}
+
+footer {
+   background: url("../images/footer-bg.jpg") no-repeat center;
+   background-size: cover;
+}
+
+footer .social-nav {
+   margin-left: -50px;
+}
+
+footer .nav-link {
+   font-size: 18px;
+}
+
+footer h5 {
+   font-size: 23px;
 }
