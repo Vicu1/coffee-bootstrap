@@ -1,0 +1,47 @@
+body {
+   position: relative;
+}
+
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+
+.main {
+   height: 100vh;
+}
+
+.carousel {
+   z-index: -1;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+}
+
+.carousel-inner {
+   height: 100vh;
+}
+
+.title {
+   font-size: 72px;
+   padding-top: 333px;
+   max-width: 450px;
+}
+
+.btn-outline-primary {
+   border-radius: 50px;
+   border: 2px solid white;
+}
+
+.btn {
+   margin-left: 100px;
+}
+
+.carousel-item img {
+   height: 100vh;
+}
